@@ -1,0 +1,33 @@
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+
+}
+
+#face-container {
+    width: 400px;
+    height: auto;
+    text-align: center;
+    background-color: pink;
+}
+
+#happy-face {
+    width: 200px;
+    height: auto;
+}
+
+.translate {
+    transform: translate(120px, 75px);
+    transition-duration: 2s;
+    transition-delay: 3s;
+}
